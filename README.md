@@ -1,4 +1,4 @@
-# Poornima K — 3D Engineering Portfolio
+# Poornima Karmegakannan — 3D Engineering Portfolio
 
 A deploy-ready Vite + React + TypeScript portfolio using React Three Fiber, Three.js and Framer Motion.
 
