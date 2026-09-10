@@ -90,10 +90,10 @@ function App() {
             setFontScale={setFontScale}
             copy={{ customize: t.customize, ...t.settings }}
           />
-          <a className="ghost-button resume-button" href="/Poornima_K_Resume_Backend.pdf" target="_blank" rel="noreferrer">
+          <a className="ghost-button resume-button" href={`${import.meta.env.BASE_URL}Poornima_K_Resume_Backend.pdf`} target="_blank" rel="noreferrer">
             {t.nav.resume} <ArrowUpRight size={15} />
-          </a>
-        </div>
+            </a>
+      </div>
       </nav>
 
       <section className="hero shell" id="top">
